@@ -8,11 +8,9 @@ const Header = ({ toggleSidebar, searchQuery, setSearchQuery }) => {
     <header className="header">
       <div className="left-section">
         <FaBars className="menu-icon" onClick={toggleSidebar} />
-
-        {/* Replace text logo with image logo if available */}
         <Link to="/" className="logo">
           <img
-            src="/logo.png" // Place logo.png in public folder
+            src="/logo.png" 
             alt="YouTubeClone"
             className="logo-image"
           />
