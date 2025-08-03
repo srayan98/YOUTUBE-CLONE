@@ -1,0 +1,88 @@
+.watch-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.video-player {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.video-info h2 {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+}
+
+.video-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.video-actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.channel-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.channel-left {
+  display: flex;
+  align-items: center;
+}
+
+.channel-avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.comments-section h3 {
+  margin-bottom: 10px;
+}
+
+.comment-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.comment-form button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.comment {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
